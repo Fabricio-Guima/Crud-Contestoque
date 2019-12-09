@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+
+}
+
+body {
+    height: 100%;
+}
+
+a {
+    cursor: pointer;
+}
+
+#menu-nav {
+    background-color: black;
+
+}
+
+/*Menu*/
+#menu-nav nav .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#menu-nav a {
+    color: yellow;
+    padding: 5px 10px;
+}
+
+#menu-nav ul li a:hover {
+    color: red;
+}
+
+/*Corpo*/
+#principal {
+    margin-top: 40px;
+}
+
+#principal h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*CARDS*/
+.card-header {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cadastroSucesso {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 80.1vh;
+
+}
+
+.container {
+
+    height: 81.5vh;
+}
+
+
+/*fomurlário*/
+#principal form {
+    width: 500px;
+    margin: 0 auto;
+    border: 2px #000 solid;
+    padding: 10px;
+}
+
+#principal form label {
+    font-weight: bold;
+}
+
+#principal form input:focus {
+    border-color: #000;
+}
+
+#principal .botaoDireita {
+    text-align: right;
+
+}
+
+.voltar {
+    width: 500px;
+    margin: 0 auto;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/*rodape*/
+footer {
+    background-color: black;
+}
+
+footer div p {
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fixar-rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 37px 10px;
+}
